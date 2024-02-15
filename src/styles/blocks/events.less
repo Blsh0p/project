@@ -1,6 +1,37 @@
-.events {
-    padding-top: 140px 0 100px;
-    &__listing {
-        margin-bottom: 100px;
+.events{
+
+    &__listing{
+        .container();
+        margin-top: 140px;
+        margin-bottom: 232px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__navigation {
+        margin-bottom: -23px;
+    }
+
+    &__contacts {
+        .container();
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-bottom: 150px;
+
+        @media @bw1340 {
+            flex-wrap: wrap;
+            justify-content: center;
+            column-gap: 100px;
+            row-gap: 50px;
+        }
+        @media @bw768 {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
+
+    

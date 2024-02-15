@@ -1,0 +1,25 @@
+<article class="article-card @@class">
+    <a href="#" class="article-card__link">
+      <picture class="article-card__picture">
+        <source type="image/webp"
+          media="(max-width: 767px)" 
+          srcset="@@webp-mobile"/>
+        <source type="image/webp"
+          media="(min-width: 768px)"
+          srcset="@@webp-desktop"/>
+        <img src="@@img" alt="@@alt" class="article-card__img"/>          
+      </picture>
+    </a>
+    <div class="article-card__info">
+      <time datetime="@@datetime" class="article-card__time">@@time</time>
+      <a href="#" class="article-card__title-link">
+        <h4 class="article-card__title">@@title</h4>
+        <div class="article-card__arrow arrow">
+          <svg class="arrow__icon" width="92" height="62">
+            <use xlink:href="assets/icons/symbols.svg#link"></use>
+          </svg>
+        </div>
+      </a>
+      <p class="article-card__description">@@descr</p>
+    </div>
+  </article>

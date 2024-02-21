@@ -2,7 +2,7 @@
     "name": "course_front",
     "version": "1",
     "description": "course frontend junior",
-    "author": "dispatcherenko",
+    "author": "bishop",
     "devDependencies": {
         "autoprefixer": "^10.4.2",
         "browser-sync": "^2.27.7",
